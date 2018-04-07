@@ -21,5 +21,5 @@ trivial cipher this week, so now'd be a good time
 to look through some of the classics.
 
 
-We're currently on $5Challenge #1.
+We're currently on $5Challenge #%[challenge].
 ]]

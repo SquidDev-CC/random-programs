@@ -11,10 +11,10 @@ local entity_blacklist = {
 }
 for i = 1, #entity_blacklist do entity_blacklist[entity_blacklist[i]] = true end
 
-local manipulator = peripheral.wrap("bottom")
+local manipulator = peripheral.find("manipulator")
   or error("Cannot find manipulator", 0)
 
-local primary_screen = screen(config.primary_monitor, 'main_screen')
+local primary_screen = screen(config.primary_monitor, 'main_screen', { challenge = 1})
 local secondary_screen = screen(config.secondary_monitor, 'disk_nobody')
 local drive = peripheral.wrap(config.drive) or error("Cannot find drive", 0)
 

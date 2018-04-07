@@ -78,5 +78,21 @@ return function(name)
         return false
       end
     end,
+
+    submissions = function()
+      local out = {}
+      for _, info in pairs(data) do
+        if info.finished then
+          table.insert(out, {
+            name = info.name,
+            time = info.finished - info.started
+          })
+        end
+      end
+
+      table.sort(out, function(a, b) return a.time < b.time end)
+
+      return out
+    end
   }
 end
