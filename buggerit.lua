@@ -120,11 +120,11 @@ local env = setmetatable({}, {
     if var then return var.value end
 
     return _ENV[k]
-  end
+  end,
 })
 
 local lua_file = shell.resolveProgram("lua") or "/rom/programs/lua.lua"
-local lua_shell = load_program(lua_file, env)
+local lua_shell, err = load_program(lua_file, env)
 if not lua_shell then
   printError(err)
   error()
