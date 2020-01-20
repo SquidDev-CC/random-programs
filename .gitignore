@@ -1,4 +1,6 @@
 .ionide
 build
 
+## Test files
 *.pack
+/ohno.lua
