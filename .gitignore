@@ -1,5 +1,4 @@
-/.lua_history
-/.shell_history
-/mbs.lua
-/.mbs
-/startup
+.ionide
+build
+
+*.pack

@@ -1,3 +1,9 @@
+--- A tiny program to remove most errors in your program.
+--
+-- No, this isn't serious. It's a terrible idea.
+--
+-- @usage require("error-fix") print(2 + false) -- won't error!
+
 local mt, void = {}, function() return nil end
 local methods = {
   "__call", "__index", "__newindex",
