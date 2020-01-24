@@ -1,4 +1,5 @@
--- Taken from Babies' First Names 2018, National Records of Scotland
+-- Data from Babies' First Names 2018, National Records of Scotland
+-- Crown Copyright 2018
 -- https://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/vital-events/names/babies-first-names/babies-first-names-2018/babies-first-names-2018
 local names = {
 "A", "A-J", "A-Jay", "Aadam", "Aadhi", "Aadith", "Aahid", "Aahil", "Aaqib", "Aaran", "Aarav", "Aari", "Aarib", "Aarin",
