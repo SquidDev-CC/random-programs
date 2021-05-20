@@ -4,3 +4,4 @@ build
 ## Test files
 *.pack
 /ohno.lua
+/old_keys.lua
